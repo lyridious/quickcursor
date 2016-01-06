@@ -32,7 +32,6 @@
 		88564D8A12DF407E00070CD3 /* StatusItemIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88564D8912DF407E00070CD3 /* StatusItemIcon.png */; };
 		8858B82912F9AC6600696670 /* receipt in Resources */ = {isa = PBXBuildFile; fileRef = 8858B82812F9AC6600696670 /* receipt */; };
 		88C3174D1469D7E0003E71E0 /* NSPasteboard_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C3174C1469D7E0003E71E0 /* NSPasteboard_Extensions.m */; };
-		88D3FC48133D0F8B00C2E651 /* ReceiptVerification.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D3FC47133D0F8B00C2E651 /* ReceiptVerification.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -96,8 +95,6 @@
 		8858B82812F9AC6600696670 /* receipt */ = {isa = PBXFileReference; lastKnownFileType = file; path = receipt; sourceTree = "<group>"; };
 		88C3174B1469D7E0003E71E0 /* NSPasteboard_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPasteboard_Extensions.h; sourceTree = "<group>"; };
 		88C3174C1469D7E0003E71E0 /* NSPasteboard_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPasteboard_Extensions.m; sourceTree = "<group>"; };
-		88D3FC46133D0F8B00C2E651 /* ReceiptVerification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptVerification.h; sourceTree = "<group>"; };
-		88D3FC47133D0F8B00C2E651 /* ReceiptVerification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptVerification.m; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* QuickCursor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCursor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -185,8 +182,6 @@
 			children = (
 				882A8BB2128C33F000D05C94 /* README.txt */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				88D3FC46133D0F8B00C2E651 /* ReceiptVerification.h */,
-				88D3FC47133D0F8B00C2E651 /* ReceiptVerification.m */,
 				256AC3F00F4B6AF500CF3369 /* QuickCursor_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -327,7 +322,6 @@
 				882A8BDB128C349E00D05C94 /* PTHotKey.m in Sources */,
 				882A8BDC128C349F00D05C94 /* ODBEditor.m in Sources */,
 				882A8BDD128C349F00D05C94 /* NSAppleEventDescriptor-Extensions.m in Sources */,
-				88D3FC48133D0F8B00C2E651 /* ReceiptVerification.m in Sources */,
 				88C3174D1469D7E0003E71E0 /* NSPasteboard_Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
